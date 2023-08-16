@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+input{
+display:flex;
+padding:1px;
+margin:1px ;
+border-radius:5px;
+}
+.submit{
+display:inline;
+background-color:cyan;
+width:60px;
+
+}
+.submit:hover{
+color:tomato;
+}
+#customer{
+	text-decoration:none;
+	background-color:cyan;
+	border:2px solid black;
+	margin:1px ;
+	padding:1px;
+    border-radius:5px;
+    width:60px;
+}
+#customer:hover{
+color:tomato;
+}
+</style>
+</head>
+<body>
+<form action="clog" method="post">
+ UserName:<input type="text" name="uname"><br>
+ Password:<input type="password" name="pword"><br>
+ <input type="submit" class="submit" value="Login">
+ <a id="customer" href="CustomerReg.html">NewCustomer?</a>
+</form>
+</body>
+</html>
